@@ -125,6 +125,7 @@ nav{
 #banner {
   background: url("assets/banner.png") no-repeat center/cover;
   height: 720px;
+  margin-bottom: 23px;
 }
 .banner_content {
   color: #000000;
@@ -148,7 +149,7 @@ nav{
   display: flex;
   gap: 21px;
 }
-.banner_content .banner_btn{
+.banner_btn{
   background: #000000;
   color: #ffffff;
   padding: 14.5px 36px;
@@ -156,4 +157,37 @@ nav{
   font-weight: 500;
   border: none;
   cursor: pointer;
+}
+
+/* Sale Card Section */
+.sale_card{
+  width: 624px;
+  height: 344px;
+  background: #C4C4C4
+   url('./assets/mask.png')
+    no-repeat center/cover;
+  margin-bottom: 24px;
+}
+.sale_card .sale_content{
+  margin-top: 34px;
+  margin-left: 40px;
+  width: 219px;
+  height: 204px;
+}
+.sale_card .sale_content h3{
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 26px;
+}
+.sale_card .sale_content p{
+  font-size: 16px;
+  line-height: 42px;
+}
+
+
+.sale_list{
+  display: flex;
+  gap: 32px;
+  margin-top: 23px;
 }
