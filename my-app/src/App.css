@@ -1,42 +1,121 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+nav{
+    padding-top: 29px;
+}
+.main_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.main_menu .logo{
+    width: 100px;
+    height: 40px;
+}
+.main_menu .logo img{
+    width: 100%;
+}
+.main_menu .menus ul{
+    display: flex;
+    gap: 43px;
+}
+.main_menu .menus ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.main_menu .menus ul li a:hover{
+    color: #ff6600;
+}
+.main_menu .icons{
+    display: flex;
+    gap: 30px;
+}
+.main_menu .icons a{
+    width: 24px;
+    height: 24px;
+}
+.main_menu .icons a img{
+    width: 100%;
+}
+.header-search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #ffffff;
+  padding: 10px 0px;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Left section */
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  height: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.department-dropdown {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+  height: 40px;
+  background-color: #F3F3F3;
 }
 
-.card {
-  padding: 2em;
+/* Search section */
+.search-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 16px;
+  border: 1px solid #ddd;
+  height: 40px;
 }
 
-.read-the-docs {
-  color: #888;
+.search-input {
+  flex: 1;
+  border: none;
+  padding: 10px 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+.category-dropdown {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 12px;
+  border-left: 1px solid #ddd;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.search-btn {
+  border: none;
+  cursor: pointer;
+  height: 40px;
+}
+.search-btn img {
+  width: 100%;
+}
+
+
+
+.arrow {
+  font-size: 10px;
 }
