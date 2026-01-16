@@ -191,3 +191,40 @@ nav{
   gap: 32px;
   margin-top: 23px;
 }
+
+
+/* Mini Cards */
+.mini_cards{
+  display: flex;
+  gap: 32px;
+  margin-bottom: 42px;
+}
+.mini_card{
+  width: 296px;
+  height: 184px;
+  border: 1px solid #e7e7e7;
+  box-sizing: border-box;
+  align-items: center;
+  cursor: pointer;
+}
+.mini_card .mini_content{
+  padding: 30px 70px;
+}
+.mini_card .mini_content .mini_image{
+  width: 64px;
+  height: 64px;
+  margin-top: 29px;
+  margin-bottom: 8px;
+  margin: 0 auto;
+}
+.mini_card .mini_content h4{
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.mini_card .mini_content p{
+  font-size: 14px;
+  text-align: center;
+  color: #555555;
+}
